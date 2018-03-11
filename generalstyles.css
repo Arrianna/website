@@ -1,0 +1,171 @@
+
+/*general*/
+html {
+
+	background-color: #000000;
+}
+
+nav {
+
+	background-color: rgdb(128,128,128,0.4);
+	height: : 200px;
+}
+
+body {
+
+	color: #ffffff;
+}
+
+
+
+.sidebar {
+
+	width: 25%;
+	height: 100%;
+	background-color: rgba(0,128,128,0.25);
+	position: fixed;
+	z-index: 10;
+
+}
+
+
+.sidebar ul li{
+ 
+	padding: 9% 0% 9% 0%;
+	border-bottom:2px solid #ffffff;
+	list-style-type: none;
+    margin: 0px;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+
+
+
+.mainsection {
+	margin-left: 25%;
+	padding: 1% 5%;
+	
+}
+
+.sidebar li:hover {
+	background-color: rgba(184, 38, 1,0.6);
+}
+
+
+
+.sidebar a:link, a:visited { 
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+/*homepage*/
+
+.homepage img {
+
+	border-radius: 100%;
+	width: 40%;
+	padding: 2%;
+}
+
+.homepage .imgposition {
+
+	position: relative;
+	left: 13%;
+}
+
+.mainsection .homepage p {
+
+	font-family: "Book Antiqua";
+	font-size: 1.7em;
+	text-align: center;
+	font-style: italic;
+}
+
+.mainsection h1 {
+
+	font-family: "Georgia";
+	font-size: 3em;
+	text-align: center;
+	font-weight: 100;
+	color: #ff3b3f;
+}
+
+/* About */
+
+ .about table th, .contact table th{
+
+ 	text-align: right;
+ 	font-size: 1.7em;
+ 	padding-bottom: 5%;
+ 	font-family: "Times New Romans";
+ 	font-weight: 300;
+ 	color: #cd5360;
+ }
+
+.about table td, .contact table td {
+
+	text-align: left;
+	padding-left: 4%;
+	padding-bottom: 5%;
+	font-size: 1.5em;
+	font-family: "Times New Romans";
+}
+
+.about table tr {
+
+	padding-bottom: 5%
+}
+
+/*education     Portfolio      Work Experience*/
+
+
+
+.workex img , .education img, .portfolio img{
+
+	border-radius: 100%;
+	width: 15%;
+	margin-left: 20%;
+	margin-right: 0%;
+}
+
+.workex .imgposition, .education .imgposition, .portfolio .imgposition {
+
+	float: left;
+}
+
+ .workex p, .education p, .portfolio p {
+
+ 	font-size: 1.4em;
+ 	font-family: "Didot";
+ 	font-weight: 150;
+ 	text-align: center;
+ 	margin-left: 0%
+
+ }
+
+/* Gallery*/
+
+
+
+.galtable {
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
